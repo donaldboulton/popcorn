@@ -1,11 +1,11 @@
 # Site settings
-title: Popcorn - A Staticman sample page
-email: your-email@domain.com
-description: Test
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Popcorn - Reviews for donboulton.com
+email: donaldboulton@gmail.com
+description: Reviews and Ratings for donboulton.com
+baseurl: "/popcorn/" # the subpath of your site, e.g. /blog/
+url: "https://donaldboulton.github.io/" # the base hostname & protocol for your site
+twitter_username: donboulton
+github_username:  donaldboulton
 movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
 
 # Build settings
