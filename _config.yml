@@ -18,6 +18,36 @@ staticman:
  commitMessage: "Hey human, here is a new entry."
  filename: "entry{@timestamp}"
  format: yml
- moderation: true
+ moderation: false
  path: "_data/reviews"
  requiredFields: ['name', 'title', 'description', 'rating']
+ include:
+  - ".htaccess"
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - ".asset-cache"
+  - ".bundle"
+  - ".jekyll-assets-cache"
+  - assets/js/main.js
+  - config
+  - Gemfile
+keep_files:
+  - ".git"
+  - ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
