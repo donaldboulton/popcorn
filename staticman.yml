@@ -15,7 +15,8 @@ reviews:
   path: "_data/reviews"
   requiredFields: ['name', 'title', 'description', 'rating']
   name: "Donald Boulton"
-
+  branch: "gh-pages"
+  
 reCaptcha:
   enabled: true
   siteKey: "6LerR1MUAAAAACWH7t30s7V4aApQZaIVVPcvH21X"
