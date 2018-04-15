@@ -6,11 +6,13 @@ baseurl: "/popcorn/" # the subpath of your site, e.g. /blog/
 url: "https://donaldboulton.github.io/" # the base hostname & protocol for your site
 twitter_username: donboulton
 github_username:  donaldboulton
-reviewsFormUrl: https://staticman.net/api/v2/entries/5622d244c4bf944a1a3e3001
+reviewsFormUrl: https://staticman.net/api/v2/entries/donaldboulton/popcorn/reviews
 
 # Build settings
 markdown: kramdown
 
+reviews:
+  provider: "staticman_v2"
 # Staticman
 staticman:
  allowedFields: ['name', 'title', 'description', 'rating']
@@ -21,6 +23,7 @@ staticman:
  moderation: false
  path: "_data/reviews"
  requiredFields: ['name', 'title', 'description', 'rating']
+ 
  include:
   - ".htaccess"
 exclude:
