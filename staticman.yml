@@ -16,22 +16,7 @@ reviews:
   requiredFields: ['name', 'title', 'description', 'rating']
   name: "Donald Boulton"
 
-notifications:
-    enabled: true
-
-  notify:
-  - name: donboulton
-    platform: twitter
-    consumer_key: Wicpx8XkPT8tHijl4MKH7w
-    consumer_secret: WWYv+fj1vn4foC7aTTwELPLM22XfxAT9wu01NdvOhtJWGhrV8wy0DzES5bCGxxFqtMi1kxTq9vGsbwH/e/9QzuNZGnHV2YeqxVKvXwWVxC700m+GZsFJXvehUdsHHUBgxe0MFzxkhEFpRK6y9QIUGofN+yH1+DqYn+iaNMVO964=
-    access_token: 105217183-OZnpTgm0Ug9T1XUQLefhzKzEdyHkckWX1Z6nHONO
-    access_token_secret: Sl/KluM2Asg0B+g8YmYJmZeyH1yONSMu/enIbX7+m56ADUKVL8yl+141eT3j5GOsnPBH40yfADg/ZBUDmejHq/+uB+SvYvoYwhm5V1F4ru8HzYjYlbYt95w2oMQbQQp2DQVNeqL7tQAbkWmmEbUFzr88NFkSLjYwKMG0W1e3Vos=    
-    apiKey: "H5EZw3wcgp0MVFVT9xj1T2bjagHUmxotILm4KbnXTHE5MtyHj+1pk+kQQGQuVdH8U/rgnth/4kvm/4lWRmxgu3vNAotPpg5VcmZsd7A44D/+sLNrZCXU7q5+YZ6VHYMjQpbHTBOsdebxq3Tog/3x3ONuR5XL/kRQNvD9tdjmdFw="
-    domain: "https://api.mailgun.net/v3/e34znvGa3bO/OEQLyxKXl/xsTH5YIuREGWgzhLlKN1VC5oTiY3/XbBknpnmtDvrPFpE+kyOfjtw3KGDRUcGbzZjmfT+22+KvcBo9KVvwlwYp3gllmFAWI9XaIMlvYvD/fnShL433vECUMTx8ZKOc51QHC2Kp4tjReeC0ZOLISHE="
-    fromAddress: "postmaster@donboulton.com"
-  transforms:
-    email: md5
-  reCaptcha:
-    enabled: true
-    siteKey: "6LerR1MUAAAAACWH7t30s7V4aApQZaIVVPcvH21X"
-    secret: "InOx7TFoYpMPhxiNmtYpHmGNfiiSeEs5k1/7YaykXVEmcZwygLVSGfND+xlcURfeW0yIy0kfyAB8TP6rWUTRkijvHtOlnR/Gtb0w7Dr+1cJfZwFS+MjwmBKVyAmcSe5frbcfhcPKOPPes3mUYoOy7FyZwUKNrDCHkKY1vdJ3Bn4="
+reCaptcha:
+  enabled: true
+  siteKey: "6LerR1MUAAAAACWH7t30s7V4aApQZaIVVPcvH21X"
+  secret: "InOx7TFoYpMPhxiNmtYpHmGNfiiSeEs5k1/7YaykXVEmcZwygLVSGfND+xlcURfeW0yIy0kfyAB8TP6rWUTRkijvHtOlnR/Gtb0w7Dr+1cJfZwFS+MjwmBKVyAmcSe5frbcfhcPKOPPes3mUYoOy7FyZwUKNrDCHkKY1vdJ3Bn4="
