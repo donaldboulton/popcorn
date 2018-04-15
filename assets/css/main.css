@@ -11,6 +11,18 @@ body {
 	letter-spacing: 0.04em;
 }
 
+.site__logo {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-left: 100px;
+	margin-top: 40px;
+	display: flex;
+    align-self: stretch;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 .show-modal {
 	overflow: hidden;
 	position: relative;
