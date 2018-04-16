@@ -11,6 +11,10 @@ reviewsFormUrl: https://staticman.net/api/v2/entries/donaldboulton/popcorn/revie
 # Build settings
 markdown: kramdown
 
+extlinks:
+  attributes: {rel: nofollow, target: _blank}
+  rel_exclude: ['donaldboulton.github.io/popcorn/', 'twitter.com']
+
 reviews:
   provider: "staticman_v2"
 # Staticman
