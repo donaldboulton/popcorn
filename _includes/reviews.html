@@ -12,7 +12,7 @@
 		  	<p><strong>Review by: </strong>{{ reviewData.name }}</p>
 		    <p><strong>Rating:</strong>
 		      {% for i in (1..reviewData.rating) %}
-				    <i class="material-icons rating-star">star</i>
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
 		      {% endfor %}
 		    </p>
 		    <div class="review__description">
@@ -20,7 +20,7 @@
 		    </div>
 		  </div>
 		  <div class="mdl-card__actions mdl-card--border">
-		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://donboulton.com/find?ref_=nv_sr_fn&q={{ reviewData.title }}&s=all">
+		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://donboulton.com/search?ref_=posts&q={{ reviewData.title }}&s=all">
 		      Find on, donboulton.com
 		    </a>
 		  </div>
