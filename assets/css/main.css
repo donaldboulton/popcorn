@@ -1,7 +1,7 @@
 body {
 	font-size: 16px;
-	color: #ccc;
-	background-image: url(/assets/images/pages/bg10-min.png);
+	color: #ccc!important;
+	background-image: url(/assets/images/pages/bg10-min.png)!important;
     background-repeat: repeat;
 }
 
@@ -72,6 +72,9 @@ section + section {
 	padding-left: 1em;
 	padding-right: 1em;
 	box-sizing: border-box;
+	color: #ccc!important;
+	background-image: url(/assets/images/pages/bg10-min.png)!important;
+    background-repeat: repeat;
 }
 
 .form {
