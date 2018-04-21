@@ -66,14 +66,14 @@ section + section {
 
 .constrain {
 	width: 100%;
-	max-width: 700px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
 	box-sizing: border-box;
 	color: #ccc!important;
-	background-image: url(/assets/images/pages/bg10-min.png)!important;
+	background-image: url(https://donboulton.com/assets/images/pages/bg10-min.png)!important;
     background-repeat: repeat;
 }
 
@@ -95,6 +95,7 @@ section + section {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	color: #fff;
 	background-color: rgba(255, 255, 255, 0.7);
 	z-index: 10;
 }
