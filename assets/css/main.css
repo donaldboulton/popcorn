@@ -77,6 +77,10 @@ section + section {
     background-repeat: repeat;
 }
 
+.hidden{
+	display: none;
+}
+
 .form {
 	position: relative;
 }
